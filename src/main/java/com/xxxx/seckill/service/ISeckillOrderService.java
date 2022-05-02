@@ -1,7 +1,8 @@
 package com.xxxx.seckill.service;
 
-import com.xxxx.seckill.entity.SeckillOrder;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.xxxx.seckill.entity.SeckillOrder;
+import com.xxxx.seckill.entity.User;
 
 /**
  * <p>
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface ISeckillOrderService extends IService<SeckillOrder> {
 
+    Long getResult(User user, Long goodsId);
 }

@@ -1,17 +1,18 @@
-package com.xxx.seckill.entity;
+package com.xxxx.seckill.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
-import java.io.Serializable;
-import java.util.Date;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+
+import java.io.Serializable;
+import java.util.Date;
 
 /**
  * <p>
  * 
  * </p>
  *
- * @author 作者
+ * @author yangwu
  * @since 2022-03-30
  */
 @TableName("t_user")

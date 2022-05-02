@@ -8,7 +8,7 @@ import com.xxxx.seckill.entity.User;
  * @date 2022/4/29 10:32 PM
  * @version 1.0
  */
-public class ThreadContext {
+public class UserContext {
 
     private static ThreadLocal<User> userHolder = new ThreadLocal<>();
 

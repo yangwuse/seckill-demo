@@ -1,4 +1,4 @@
-package com.example.seckilldemo.utils;
+package com.xxxx.seckill.utils;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.JsonProcessingException;

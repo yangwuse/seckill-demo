@@ -1,7 +1,7 @@
 package com.xxxx.seckill.mapper;
 
-import com.xxxx.seckill.entity.SeckillGoods;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.xxxx.seckill.entity.SeckillGoods;
 
 /**
  * <p>

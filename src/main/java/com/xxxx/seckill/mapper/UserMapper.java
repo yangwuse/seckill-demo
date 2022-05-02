@@ -1,14 +1,15 @@
-package com.xxx.seckill.mapper;
+package com.xxxx.seckill.mapper;
 
-import com.xxx.seckill.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.xxxx.seckill.entity.User;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
  *  Mapper 接口
  * </p>
  *
- * @author 作者
+ * @author yangwu
  * @since 2022-03-30
  */
 public interface UserMapper extends BaseMapper<User> {
